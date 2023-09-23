@@ -1,7 +1,6 @@
 package hw1
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -20,13 +19,4 @@ func compareSlices(slice1, slice2 []int) bool {
 	}
 
 	return true
-}
-
-func main() {
-	slice1 := []int{1, 2, 3, 4, 5}
-	slice2 := []int{5, 4, 3, 2, 1}
-	slice3 := []int{1, 2, 3, 4, 6}
-
-	fmt.Println(compareSlices(slice1, slice2))
-	fmt.Println(compareSlices(slice1, slice3))
 }
